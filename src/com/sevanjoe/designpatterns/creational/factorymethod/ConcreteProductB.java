@@ -1,7 +1,7 @@
-package com.sevanjoe.designpatterns.creational.simplefactory;
+package com.sevanjoe.designpatterns.creational.factorymethod;
 
 /**
- * Created by Sevan on 2017/4/8.
+ * Created by Sevan on 2017/4/9.
  */
 public class ConcreteProductB implements Product {
 
@@ -11,6 +11,6 @@ public class ConcreteProductB implements Product {
 
     @Override
     public void initProduct() {
-        System.out.println("Create product B by simple factory...");
+        System.out.println("Create product B by factory method...");
     }
 }
